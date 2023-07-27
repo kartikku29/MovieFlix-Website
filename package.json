@@ -1,5 +1,6 @@
 {
   "name": "movie",
+  "homepage": "https://kartikku29.github.io/movieflix",
   "private": true,
   "version": "0.0.0",
   "type": "module",
