@@ -1,0 +1,60 @@
+.registrationBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.registration{
+    background-color: rgba(0,0,0,.25);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 40vw;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.registrationHeader{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 20px 40px;
+    /* border: 2px solid green; */
+    
+}
+.registrationHeader>h1{
+    
+    
+    font-size: 20px;
+    font-weight: 500;
+    
+    
+}
+.registrationForm{
+    padding: 20px 40px;
+    /* border: 1px solid red; */
+}
+.field{
+    display: flex;
+    justify-content: start; 
+    align-items: start;
+    flex-direction: column;
+}
+.field>label{
+    text-align: left;
+    font-size: 14px;
+    
+}
+#email, #password, #cpassword, #name{
+    margin: 10px 0px;
+    width: 100%;
+    background: #333;
+    border: 0;
+    border-radius: 4px;
+    color: #f2d1d1;
+    line-height: 40px;
+    /* padding: 16px 20px 0; */
+    padding: 0px 10px;
+    outline: none;
+}

@@ -1,0 +1,42 @@
+.homeBody{
+    display: flex;
+    flex-direction: row;
+    /* width: 100vw; */
+}
+.genre{
+    width: 20%;
+    margin: 20px 30px;
+    /* border: 1px solid red; */
+}
+.genre>h2{
+    letter-spacing: 2.55px;
+    font-size: 1.5rem;
+}
+.genre>p{
+    margin: 20px 0px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.homeMain{
+    width: 80%;
+    background-color: #707070;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: 30px;
+}
+.movieContainer{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /* border: 1px solid yellow; */
+     width: 100%;
+    background-color: #353535;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: 30px;
+
+}
